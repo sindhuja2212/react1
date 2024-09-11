@@ -12,7 +12,7 @@ class AddCard extends Component {
   };
 
   clickHandler = () => {
-    //need to add card
+    
     const addingData = { name: "manasa", role: "Web Dev", salary: "20000" };
 
     const newData = [...this.state.empData, addingData];
@@ -23,7 +23,7 @@ class AddCard extends Component {
   };
 
   removeHandler = (index) => {
-    //deleting based on index
+
     console.log(index);
     const OverAllData = this.state.empData.filter((_, id) => id !== index);
     this.setState({
