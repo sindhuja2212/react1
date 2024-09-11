@@ -2,9 +2,8 @@
 
 
 import "./App"
-import BulbCustom from "./components/bulb/bulb"
-import FetchProducts from "./components/fakestoreapi/category"
-import FakeStoreApi from "./components/fakestoreapi/fakestoreapi"
+import SeeMore from "./components/seemore/seemore"
+
 
 
 
@@ -17,7 +16,7 @@ export default function App() {
     <div>
     
   
-    <BulbCustom/>
+    <SeeMore/>
       
       
     </div>
