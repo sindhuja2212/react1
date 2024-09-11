@@ -2,7 +2,7 @@
 
 import {Button} from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import InstagramHeart from "../instaheart/instaheart";
+import InstagramHeart from "../instagramheart/instagramheart.jsx";
 
 function CustomRectCard({ title, text, removeHandler, ind }) {
   return (

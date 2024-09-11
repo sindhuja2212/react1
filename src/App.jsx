@@ -2,7 +2,8 @@
 
 
 import "./App"
-import AddCard from "./components/addcard/addcard"
+import FetchProducts from "./components/fakestoreapi/category"
+import FakeStoreApi from "./components/fakestoreapi/fakestoreapi"
 
 
 
@@ -14,7 +15,8 @@ export default function App() {
   return (
     <div>
     
-       <AddCard/>
+      {/* <FakeStoreApi/> */}
+      <FetchProducts/>
       
       
     </div>
