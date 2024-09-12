@@ -2,7 +2,10 @@
 
 
 import "./App"
-import SeeMore from "./components/seemore/seemore"
+
+
+import CustomTodo from "./components/hooks/todo"
+
 
 
 
@@ -16,7 +19,8 @@ export default function App() {
     <div>
     
   
-    <SeeMore/>
+    <CustomTodo/>
+   
       
       
     </div>
