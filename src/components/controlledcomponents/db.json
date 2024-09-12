@@ -1,0 +1,32 @@
+{
+    "details": [
+      {
+        "id": 1,
+        "username": "sindhuja",
+        "model": "Samsung S22 Ultra",
+        "mobile": "9347013251",
+        "complaint": "Lagging in the Game mode and not supported to some apps."
+      },
+      {
+        "id": 2,
+        "username": "manasa",
+        "model": "samsung j7",
+        "mobile": "9908800367",
+        "complaint": "Lagging in the Game mode and not supported to some apps."
+      },
+      {
+        "id": 3,
+        "username": "soniya",
+        "model": "Samsung S22 Ultra",
+        "mobile": "9347013251",
+        "complaint": "Lagging in the Game mode and not supported to some apps."
+      },
+      {
+        "id": 4,
+        "username": "saritha",
+        "model": "Samsung model",
+        "mobile": "7680948310",
+        "complaint": "can you please exchange my phone with updated version."
+      }
+    ]
+  }

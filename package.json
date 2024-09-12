@@ -15,7 +15,8 @@
     "react-animated-heart": "^0.0.8",
     "react-axios": "^2.0.6",
     "react-bootstrap": "^2.10.4",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
