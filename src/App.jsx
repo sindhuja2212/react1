@@ -1,28 +1,11 @@
+import "./App";
 
-
-
-import "./App"
-
-
-import CustomTodo from "./components/hooks/todo"
-
-
-
-
-
+import DynamicTable from "./components/hooks/usereftabledata";
 
 export default function App() {
-   
-  
-
   return (
     <div>
-    
-  
-    <CustomTodo/>
-   
-      
-      
+      <DynamicTable />
     </div>
-  )
+  );
 }
