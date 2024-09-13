@@ -1,12 +1,13 @@
 import "./App";
-import FormTable from "./components/controlledcomponents/samsung";
+import { Weather } from "./components/weatherapi/weatherapi";
 
 
 
 export default function App() {
   return (
     <div>
-     
+
+     <Weather/>
     </div>
   );
 }
