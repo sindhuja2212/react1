@@ -1,6 +1,7 @@
 import "./App";
-import FakeStoreCategories from "./components/categories/categories";
-import CountryStateDropdown from "./components/countrydropdown/dropdownlist";
+
+import ExpensiveCalculation from "./components/usememoexample/usememo";
+import Usememo from "./components/usememoexample/usememo1";
 
 
 
@@ -8,8 +9,9 @@ import CountryStateDropdown from "./components/countrydropdown/dropdownlist";
 export default function App() {
   return (
     <div>
-
-    <FakeStoreCategories/>
+        <Usememo/>
+      <ExpensiveCalculation/>
+     
     </div>
   );
 }
