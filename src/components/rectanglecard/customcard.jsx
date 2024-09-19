@@ -7,10 +7,11 @@ import InstagramHeart from "../instagramheart/instagramheart.jsx";
 function CustomRectCard({ title, text, removeHandler, ind }) {
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img
+      {/* <Card.Img
         variant="top"
+        src="https://fakestoreapi.com/products"
         src="https://tse2.mm.bing.net/th?id=OIP.TK3KgXiKVmSEy0RSn1MOmwHaFj&pid=Api&P=0&h=180"
-      />
+      /> */}
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{text}</Card.Text>
