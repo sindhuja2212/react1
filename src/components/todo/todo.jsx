@@ -1,6 +1,8 @@
 import { Fragment, useReducer, useState } from "react";
 import Table from "react-bootstrap/Table";
 import "./todo.css"
+import { useDispatch, useSelector } from "react-redux";
+import { bookedTickets } from "../redux/action";
 
 
 
@@ -13,6 +15,9 @@ const reducer = (state, action) => {
   }
 };
 export const TODO = () => {
+  const reduxStoreData=useSelector(state=>state)
+  const DispatchData= useDispatch()
+  console.log("reduxStoreData",reduxStoreData);
   const intialState = {
     todos: [],
   };
@@ -42,6 +47,10 @@ export const TODO = () => {
   }
   return (
     <Fragment>
+      <button onClick={()=>DispatchData( bookedTickets(3))}>Book tickets</button>
+       <h5>Total tickets {reduxStoreData.totalTickets}</h5>
+       <h5>bookedTicket{reduxStoreData.bookedTickets}</h5>
+       <h5>available tickets{reduxStoreData.totalTickets-reduxStoreData.bookedTickets}</h5>
       <h1 style={{textAlign:'center'}}>TODO List</h1>
       <div style={{margin:"10px 0px 10px 10px",textAlign:"start" }}>
         <form onSubmit={submitTodoHandler}>
@@ -63,6 +72,7 @@ export const TODO = () => {
           </tr>
         </thead>
         <tbody>
+          
             {
                 currentState.todos.map((eachTodo,index)=>{
                     return <tr key={index}>
@@ -78,3 +88,4 @@ export const TODO = () => {
     </Fragment>
   );
 };
+
